@@ -22,13 +22,6 @@ To use the code and scripts in this repository, please follow these steps:
    pip install -r requirements.txt
    ```
 
-   or
-
-   ```bash
-   conda create --name nsc-analysis --file requirements.txt
-   conda activate nsc-analysis
-   ```
-
 3. Setup any additional configuration or environment variables as necessary.
 
 ## Usage
