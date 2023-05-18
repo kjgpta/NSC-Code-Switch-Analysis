@@ -16,7 +16,7 @@ To use the code and scripts in this repository, please follow these steps:
    git clone https://github.com/kjgpta/NSC-Code-Switch-Analysis.git
    ```
 
-2. Install the required dependencies. You can use either `pip` or `conda`:
+2. Install the required dependencies. You can use `pip`:
 
    ```bash
    pip install -r requirements.txt
@@ -30,15 +30,15 @@ This section describes how to use the code and scripts provided in this reposito
 
 1. Normalizing Data:
 
-   The `Normalizing Data` directory contains scripts for cleaning and preparing the NSC dataset for analysis. This includes tasks such as data cleaning, normalization, segmentation, and annotation.
+   The `Normalizing Data` directory contains scripts for cleaning and preparing the NSC dataset for analysis. This includes tasks such as data cleaning, normalization.
 
 2. Categorical Analysis:
 
-   The `Categorical Analysis` directory contains code for extracting the information about the categories of the CS data. These features may include linguistic, acoustic, or contextual information that can be used for analysis.
+   The `Categorical Analysis` directory contains code for extracting the information about the categories of the CS data. These features include information about data like Age, Gender, Employment, etc.
 
 3. POS Analysis:
 
-   The `POS Analysis` directory contains scripts for conducting code-switching analysis and building models to predict code-switching behavior using Part-of-Speech. These involve the Wordwise and Pairwise analysis of the CS data.
+   The `POS Analysis` directory contains scripts for conducting code-switching analysis to predict code-switching behavior using Part-of-Speech. These involve the Wordwise and Pairwise analysis of the CS data.
 
 Please refer to the individual directories for detailed instructions on how to run each script or module.
 
@@ -48,4 +48,4 @@ The NSC dataset used in this project is not public and thus is not included in t
 
 ## License
 
-This project is licensed under the [CC0-1.0 License](LICENSE). Feel free to modify and use the code according to the terms of the license.
+This project is licensed under the [CC0-1.0 License](LICENSE).
