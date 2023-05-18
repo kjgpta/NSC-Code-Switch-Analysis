@@ -1,0 +1,12 @@
+h5py
+typing-extensions
+wheel
+imgaug==0.2.5
+malaya
+tensorflow==2.9.0
+tensorflow_addons
+pandas
+nltk
+regex
+xlsxwriter
+pip
