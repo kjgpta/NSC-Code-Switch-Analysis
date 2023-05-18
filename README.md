@@ -35,25 +35,17 @@ To use the code and scripts in this repository, please follow these steps:
 
 This section describes how to use the code and scripts provided in this repository.
 
-1. Preprocessing:
+1. Normalizing Data:
 
-   The `preprocessing` directory contains scripts for cleaning and preparing the NSC dataset for analysis. This includes tasks such as data cleaning, normalization, segmentation, and annotation.
+   The `Normalizing Data` directory contains scripts for cleaning and preparing the NSC dataset for analysis. This includes tasks such as data cleaning, normalization, segmentation, and annotation.
 
-2. Feature Extraction:
+2. Categorical Analysis:
 
-   The `feature_extraction` directory contains code for extracting various features from the preprocessed data. These features may include linguistic, acoustic, or contextual information that can be used for analysis.
+   The `Categorical Analysis` directory contains code for extracting the information about the categories of the CS data. These features may include linguistic, acoustic, or contextual information that can be used for analysis.
 
-3. Analysis and Modeling:
+3. POS Analysis:
 
-   The `analysis` directory contains scripts for conducting code-switching analysis and building models to predict code-switching behavior. This may involve statistical analysis, machine learning algorithms, or deep learning models.
-
-4. Visualization:
-
-   The `visualization` directory provides code for visualizing code-switching patterns, linguistic features, or any other relevant data using plots, graphs, or interactive visualizations.
-
-5. Evaluation:
-
-   The `evaluation` directory includes scripts and tools for evaluating the performance of code-switching models, metrics for accuracy, precision, recall, F1 score, and any other relevant evaluation measures.
+   The `POS Analysis` directory contains scripts for conducting code-switching analysis and building models to predict code-switching behavior using Part-of-Speech. These involve the Wordwise and Pairwise analysis of the CS data.
 
 Please refer to the individual directories for detailed instructions on how to run each script or module.
 
