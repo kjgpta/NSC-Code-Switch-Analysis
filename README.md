@@ -2,6 +2,8 @@
 
 This repository contains code and resources for performing code-switching analysis using the NSC (National Speech Corpus) dataset. Code-switching refers to the phenomenon of mixing two or more languages within a single conversation or utterance. The goal of this project is to provide tools and techniques for analyzing code-switching patterns and understanding the linguistic characteristics of code-switched speech.
 
+This work has been published in the [International Conference on Asian Language Processing 2023](https://www.colips.org/conferences/ialp2023/wp/) which can be found [here](https://ieeexplore.ieee.org/abstract/document/10337279).
+
 ## Introduction
 
 Code-switching is a prevalent linguistic behavior in multilingual communities. It can occur for various reasons, including social, cultural, or contextual factors. Understanding code-switching patterns is crucial for language researchers, sociolinguists, and natural language processing (NLP) practitioners. This repository provides code and resources to facilitate the analysis of code-switched speech using the NSC dataset.
@@ -32,11 +34,7 @@ This section describes how to use the code and scripts provided in this reposito
 
    The `Normalizing Data` directory contains scripts for cleaning and preparing the NSC dataset for analysis. This includes tasks such as data cleaning, normalization.
 
-2. Categorical Analysis:
-
-   The `Categorical Analysis` directory contains code for extracting the information about the categories of the CS data. These features include information about data like Age, Gender, Employment, etc.
-
-3. POS Analysis:
+2. POS Analysis:
 
    The `POS Analysis` directory contains scripts for conducting code-switching analysis to predict code-switching behavior using Part-of-Speech. These involve the Wordwise and Pairwise analysis of the CS data.
 
